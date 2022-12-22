@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* .hidden{
+    display:none;
+}
+button{
+    background: rgb(83, 61, 212);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:  none;
+}
+#cont{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 10px -65px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+} */

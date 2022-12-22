@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background: rgb(29, 28, 28);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+     "Segoe UI Emoji", "Segoe UI Symbol";
+}
+header{
+    position: fixed;
+    background: #fff;
+    height: 40px;
+    top: 0;
+z-index: 1;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid #b3a8a8;
+}
+.head-cont{
+    color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 33px;
+}
+.head-cont a{
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+.log2{
+    float: right;
+}
+.log2 p{
+    float: left;
+    color: #000;
+    line-height: 0px;
+    padding-right: 18px;
+}
+.log2 select{
+    margin-right: 30px;
+}
+/* маин */
+main{
+    width: 900px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* оплата */
+.form{
+width: 550px;
+padding: 20px;
+margin: 0 auto;
+
+}
+lebel{
+    font-size: 20px;
+    color: #474545;
+}
+.d-lebel{
+    margin-bottom: 20px;
+}
+aside{
+    width: 300px;
+    height: 200px;
+    top: 80px;
+    margin-left: 65px;
+    margin-top: 62px;
+    position: sticky;
+    border: 1px solid;
+}
+h2{
+    position: absolute;
+    font-weight: 400;
+    cursor: pointer;
+    color: #474545;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.main2{
+    display: flex;
+}
+.lebel{
+    text-align: center;
+
+    color: #474545;
+
+    font-weight: 300;
+
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* инпут */
+.input:focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+  .textare{
+    resize: vertical;
+  }
+.input::placeholder {color: #534e4e;}
+.input{
+    padding: 7px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid #b5abab;
+    width: 500px;
+}
+label{
+    color: #474545;
+    font-size: 25px;
+}
+.radio-p{
+    margin-left: 15px;
+    /* font-size: 16px; */
+    margin-top: -4px;
+}
+.dost{
+    width: 255px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 182px;
+    margin-top: 50px;
+    border: 1px solid #b5abab;
+    margin-right: 20px;
+    }
+    .button{
+        width: 530px;
+        background: #ffffff;
+        color: #201f1f;
+        border: 2px solid #9c9595;
+        margin-left: 0px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 25px;
+        padding: 10px;
+    }
+    .button:hover{
+        background: #5a56564a;
+        cursor: pointer;
+    }
+    img{
+        width: 530px;
+    }
+
+    @media screen and (max-width:1000px){
+        main{
+            width: 700px;
+        }
+    }
+    @media screen and (max-width:800px){
+        main{
+            width: 500px;
+        }
+        img{
+           width: 300px;
+        
+        }
+        .input{
+            width: 400px;
+        }
+        .button{
+            width: 430px;
+        }
+    }
+
+    /* карта */
+
+    

@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+        font-family: system-ui;
+    
+}
+
+/*  шапка */
+
+header{
+        max-width: 100%;
+    position:relative;
+
+    height: 60px;
+}
+.head{
+        max-width: 940px;
+    height: 60px;
+   color: #69B9FF;
+    margin: auto;
+    position: relative;
+}
+
+.head a{
+    cursor: pointer;
+    
+}
+
+.headLogo{
+letter-spacing: 4px;
+    line-height: 55px;
+    font-size: 29px;
+
+}
+.headBlock{
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    font-size: 18px;
+
+}
+.headBlock a{
+        padding: 14px;
+}
+
+/* блок 1 */
+
+.img{
+    background-image: url(img/1.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    -webkit-background-size: cover;
+}
+
+.blockInfo{
+    position: absolute;
+height: 400px;
+left: 17.36%;
+right: 17.36%;
+top: 195px;
+}
+.blockInfo h1{
+      color: #fff;
+    line-height: 100px;
+    font-size: 73px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.block1Main{
+    position: relative;
+    max-width: 390px;
+     top: 40px;
+    margin: auto;
+}
+
+.button1{
+    background: #69B9FF;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+    transition: 1s;
+    width: 165px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.button2{
+    border: 1px solid #FFFFFF;
+    position: absolute;
+        transition: 1s;
+    cursor: pointer;
+    height: 50px;
+    background: rgb(255 255 255 / 0%);
+    margin-left: 15px;
+    width: 210px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.button1:hover{
+    background: #409ff2;
+}
+.button2:hover{
+       background: rgb(204 185 185 / 25%);
+}
+
+/* блок 2 */
+
+.sec1{
+    width: 100%;
+    min-height: 550px;
+}
+.img{
+    
+}
+.imghe{
+    
+}
+.block1{
+    
+    max-width: 940px;
+    position: relative;
+    top: 50px;
+    margin-top: 40px;
+    min-height: 500px;
+    margin: auto;
+}
+.block4{
+  display: flex;  
+}
+.bh1{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #676770;
+}
+
+.bh2{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    color: #8E8E9C;
+}
+.flex{
+    display: flex;
+}
+.block2{
+    border: 1px solid #DCEBF7;
+    width: 300px;
+    margin: 6px;
+    border-radius: 5px;
+    height: 270px;
+}
+.bp1{
+  font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    letter-spacing: 7px;
+    color: #676770;
+}
+.bp2{
+font-size: 14px;
+    text-align: center;
+    color: #6A859C;
+    position: relative;
+    top: 35px;
+}
+.b2img{
+       background: url(img/2.png);
+    background-color: rgba(105, 185, 255, 1);
+    height: 75px;
+    width: 75px; 
+    top: 40px;
+    background-position: 8px 0px, 0px 10px, 0 8px;
+    left: 115px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.b2img2{
+    background: url(img/3.png);
+    background-color: rgba(105, 185, 255, 1);
+   
+    height: 71px;
+    width: 71px;
+    top: 40px;
+    left: 120px;
+    position: relative;
+}
+.b2img3{
+    background: url(img/4.png);
+    background-color: rgba(105, 185, 255, 1);
+    
+    height: 59px;
+    width: 76px;
+    top: 40px;
+    left: 120px;
+    position: relative;
+}
+
+/* блок 3 */
+.sec2{
+        width: 100%;
+    background: #192024;
+    min-height: 400px;
+}
+.block3{
+max-width: 910px;
+    position: relative;
+    top: 70px;
+    min-height: 860px;
+    margin: auto; 
+}
+.c {
+    color: white;
+}
+.c1{
+    color: #E8E8E8;
+}
+.img3{
+
+    margin-right: 50px;
+    
+}
+.g{
+color: #fff;
+    position: static;
+    font-size: 19px;
+    position: static;
+}
+.h{
+    font-weight: 100;
+    line-height: 30px;
+}
+.block5{
+  display: block;  
+}
+
+/* блок 4 */
+
+.block6{
+    max-width: 940px;
+    position: relative;
+    top: 50px;
+    min-height: 500px;
+    margin: auto;
+}
+.sm{
+    min-height: 1200px;
+}
+.img6{
+    top: 50px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.butlan-top {
+  position: relative;
+    display: flex;
+    max-width: 635px;
+    height: 21px;
+    margin: auto;
+}
+.l1{
+    background: #2E80B6;
+}
+.l2{
+    background:#92A0AD; 
+}
+.bh22{
+       font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #8E8E9C;
+}
+.blh2{
+  max-width: 800px;
+    margin: auto;
+    position: relative;  
+}
+.butlan-1 {
+      width: 195px;
+    cursor: pointer;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    color: white;
+    margin: auto;
+}
+
+
+
+
+/* конец сайта */
+
+footer{
+        position: absolute;
+    height: 101px;
+    left: 0%;
+    right: 0%;
+    background: #383838;
+}
+footer p{
+    color: rgba(158, 158, 158, 1);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* оптимизация */
+
+@media (max-width: 1000px) {
+    .img6{display: none;}
+    .sm {min-height: 100px;}
+}
+@media (max-width: 900px) {
+    .b2img{display: none;}
+    .img6{width: 700px;}
+    .button1{ width: 135px;}
+    .button2{width: 180px;}
+    .block5{display: none;}
+    .sec2{max-height: 400px;}
+    .block4{display: block;}
+    .b2img2{display: none;}
+    .b2img3{display: none;}
+}
+@media (max-width: 500px) {
+   .flex{display: block;}
+    .block2{margin: auto;} 
+    .button1{width: 105px;font-size: 10px;}
+    .button2{width: 130px;font-size: 10px;height: 38px;}
+    .blockInfo h1{font-size: 20px;}
+    .block1{top: 0;}
+}

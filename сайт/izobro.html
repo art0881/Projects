@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+ 
+.full-screen {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px  15px;
+}
+.full-screen__body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    text-transform: uppercase;
+}
+.full-title {
+    font-size: 50px;
+    letter-spacing: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.full-text {
+    font-size: 18px;
+    letter-spacing: 15px;
+    color: #fff;
+}
+.full-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  
+      
+    </style>
+</head>
+<body>
+   
+     <div class="full-screen">
+         <div class="full-screen__body">
+             <div class="full-title">Рашид</div>
+             <div class="full-text"> сделал лучший программист дгу</div>
+         </div>
+          <video autoplay muted loop  preload="auto" class="full-video">
+              <source type="video/mp4" src="/img/Возможно самый красивый клип в мире!.mp4.mp4">
+          </video>
+     
+</div>
+</body>
+</html>

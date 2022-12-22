@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<link href="style.css" rel="stylesheet" />
+<meta content="text/html; charset=utf-8"> 
+<script language="JavaScript">
+function checkForm(UserForm)
+{
+    var isCheck = true;
+ 
+    if (UserForm.firstName.value == '')
+    {
+    isCheck = false;
+    alert("Введите ваше Имя!");
+    UserForm.firstName.focus();
+    }
+    if (UserForm.lastName.value == '')
+    {
+    isCheck = false;
+    alert("Введите вашу Фамилию!");
+    UserForm.lastName.focus();
+    }
+    if (UserForm.middleName.value == '')
+    {
+    isCheck = false;
+    alert("Введите ваше Отчество!");
+    UserForm.middleName.focus();
+    }
+    if (UserForm.email.value == '')
+    {
+    isCheck = false;
+    alert("Введите ваш Е-mail!");
+    UserForm.email.focus();
+    }
+    if (UserForm.password.value == '')
+    {
+    isCheck = false;
+    alert("Введите ваш Пароль!");
+    UserForm.password.focus();
+    }else if (UserForm.password.value.length < 5){
+        UserForm.password.value="";
+        alert('Пароль содержит меньше 5 символов')
+        UserForm.password.focus();
+    }
+    if (UserForm.comment.value == '')
+    {
+    isCheck = false;
+    alert("Введите ваши Комментарии!");
+    UserForm.comment.focus();
+    }
+ 
+    var elements = document.querySelectorAll('input[type=checkbox]'); 
+    var isCheckBox=false;   
+    for (var i = 0; i < elements.length; i++) {
+    if (elements[i].checked) {
+     isCheckBox = true;
+    }
+  }
+if (!isCheckBox){
+    alert("Вы забыли выбрать язык!")
+}
+ 
+    
+return isCheck;
+}
+</script>
+ 
+<title>Лаба 2</title>
+</head>
+<body>
+<div class='left'>
+ 
+<p>Фамилия: </span></p>
+<p>Имя: </p> 
+<p>Отчество: </p>
+<p>E-mail: </p>
+<p style="margin-top: 30px;">Страна:</p>
+<br><br><br>
+<p>Язык:</p>
+<p style="margin-top: 110px;">Профессия:</p>
+<p style="margin-top: 35px;">Пароль:</p>
+<p style="margin-top: 35px;">Доп. информация: </p>
+</div>
+ 
+<div class="right"> 
+<!-- <form action="http://atpp.vstu.edu.ru/cgi-bin/checkform.pl" method="get"
+onSub = return checkForm(this)> -->
+<form onsubmit = "return checkForm(this)">
+<p><input type="text" size="30" name="lastName"></p>
+<p><input type="text" size="30" name="firstName"></p>
+<p><input type="text" size="30" name="middleName"></p>
+<p><input type="text" size="30" name="email"></p>
+ 
+<select name="select" size="1">
+  <option selected value="rus">Россия</option>
+    <option value="eng">Англия</option>
+    <option value="ukr">Украина</option>
+    <option value="isp">Испания</option> 
+    <option value="port">Португалия</option> 
+    <option value="fra">Франция</option> 
+    <option value="yap">Япония</option> 
+    <option value="kit">Китай</option> 
+    <option value="usa">США</option> 
+    <option value="ger">Германия</option> 
+</select>
+ 
+<p><input type=checkbox name=lgru value="lang">Русский</p>
+<p><input type=checkbox name=lguk value="lang">Украинский</p>
+<p><input type=checkbox name=lgpo value="lang">Португальский</p>
+<p><input type=checkbox name=lgfr value="lang">Французский</p>
+<p><input type=checkbox name=lgis value="lang">Испанский</p>
+ 
+<select name="select" size="3" multiple="multiple">
+  <option value="prof1">Инженер</option>
+    <option value="prof2">Экономист</option>
+    <option value="prof3">Программист</option>
+    <option value="prof4">Дворник</option> 
+    <option value="prof5">Фрилансер</option> 
+    <option value="prof6">Повар</option> 
+</select>
+<p><input type="password" size="30" name="password"></p>
+<p><textarea type="text" name="comment" rows='5' cols="50"></textarea></p>
+<p><input type="reset" value="Очистить поля формы"></p>
+<input type="submit" value="Отправить">
+ 
+</form>
+</div>
+ 
+ 
+ 
+ 
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    /* background: url("/img/2.jpg"); */
+    font-family:sans-serif;
+   
+}
+a[href]{
+       background-color: blue;
+    }
+.content{
+    width: 400px;
+    box-shadow: 0px 0px 7px #c9b7b7;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgb(246, 240, 240);
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    
+}
+.text{
+    display: block;
+margin: 0 auto;
+text-align: center;
+    width: 300px;
+}
+.info-text{
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: 25px;
+
+}
+
+/* index 2 */
+.cover{
+    background: url(../img/3.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.cover .text1{
+    width: 500px;
+    text-shadow: 0 1px #000;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.8;
+    word-spacing: 5px;
+    display: flow-root;
+    color: #fff;
+}
+.cover2{
+    background: url(../img/5.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+  
+}
+.cover3{
+    background: url(../img/6.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    
+}
+.cover4{
+    background: url(../img/7.jpg) no-repeat;
+    background-size: cover;background-attachment: fixed;
+    height: 700px;background-position: center;
+}
+/* фигура */
+@media (min-width:500px){
+.content-1{
+    display: flex; 
+    flex-direction: row;
+ 
+}}
+.content-2{
+    justify-content: space-between;
+    display: flex; 
+    flex-wrap: wrap;
+
+
+}
+.content-1 div, .content-2 div{
+padding: 10px;
+border: 1px solid #000;
+}
+.box-1{
+    flex: 2;
+    order: 3;
+}
+.box-2{
+    flex: 1;
+    order: 2;
+}
+.box-3{
+    flex: 1;
+    order: 1;
+}
+.box{
+    flex-basis: 20%;
+    
+}
+
+/* Грид */
+
+
+
+

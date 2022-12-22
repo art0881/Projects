@@ -1,0 +1,346 @@
+
+/* Слайдер */
+
+@import url('http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { overflow-y: scroll; }
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  padding-bottom: 40px;
+  color: #353535;
+  background: #100e19; /* http://subtlepatterns.com/squared-metal/ */
+}
+.log2{
+        position: relative;
+    top: 20px;
+}
+.log3{
+    background: #ea003d;
+}
+
+.gty{
+   color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.hover-effect-btn {
+  position: relative;
+  width: 190px;
+    cursor: pointer;
+        margin-right: 20px;
+    height: 267px;
+}
+.block11{
+    display: flex;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 78%; /* Настройка цвета и прозрачности для блока с заголовком */
+  transition: background 0.5s ease;
+}
+.hover-effect-btn:hover .overlay {
+  display: block;
+  background: rgb(0 0 0 / 52%); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+}
+.title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 25%; /* Отступ сверху */
+  font-size: 1.900em; /* Размер текста заголовка */
+  text-align: center;
+  text-transform: uppercase; /* Заглавные буквы */
+  color: white; /* Цвет заголовка */
+  z-index: 1;
+  transition: top .5s ease;
+}
+.hover-effect-btn:hover .title {
+  top: 10%; /* Отступ сверху при наведении */
+}
+.button {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 65%; /* Отступ сверху */
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.button a {
+    padding: 15px 40px;
+    text-align: center;
+    background: #ea003d;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ea003d;
+    border-radius: 10px;
+    z-index: 1;
+}
+.hover-effect-btn:hover .button {
+  opacity: 1;
+}
+
+
+
+
+
+
+br { display: block; line-height: 1.6em; } 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+.log1{
+           cursor: pointer;
+    margin-right: 30px;
+    color: 18px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+.buttabl:hover{
+    background: #231f34;
+}
+.buttabl{
+    padding: 30px;
+    margin-right: 10px;
+    background: #1f1b2e;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.log3:hover{
+   background: #902f48;
+}
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+input{
+    border-radius: 30px;
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 250px;
+    height: 50px;
+        border: 1px solid #000;
+    margin-top: 5px;
+        padding: 20px;
+    font-size: 21px;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; border-radius: 10px; max-width: 100%; }
+span{
+    color: #fff;
+    bottom: 40px;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    left: 220px;
+    position: absolute;
+}
+h1 { 
+  font-family: 'Alegreya Sans', Tahoma, sans-serif;
+  font-size: 4.2em;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.75);
+}
+h2 {
+  font-family: 'Alegreya Sans', Tahoma, sans-serif;
+  font-size: 3.75em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #585858;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.75);
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.2em;
+  color: #777;
+}
+
+
+/** page structure **/
+#w {
+  display: block;
+  max-width: 1000px;
+  min-width: 280px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+#w header {
+  padding-top: 15px;
+    display: flex;
+}
+
+/** Glidejs styles **/
+.slider {
+	position: relative;
+	width: 100%;
+    margin-top: 20px;
+	height: 500px;
+	overflow: hidden;
+}
+	
+.slides {
+  height: 100%;
+  overflow: hidden;
+  /**	
+   * Prevent blinking issue
+   * Not tested. Experimental.
+   */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+
+   -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+	
+.slide {
+  height: 100%;
+  float: left;
+  clear: none;
+}
+.slide figure {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.slide figure figcaption {
+  position: absolute;
+  right: 20%;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 8px 14px;
+  color: #464646;
+  background: rgba(255,255,255,0.8); 
+}
+.slide figure figcaption a {
+  color: #5a7fbc;
+  text-decoration: none;
+}
+.slide figure figcaption a:hover { text-decoration: underline; }
+
+.slide figure img {
+  max-height: 480px;
+    border-radius: 10px;
+    
+}
+
+
+
+.slider-arrows {}
+
+.slider-arrow {
+  position: absolute;
+  display: block;
+  margin-bottom: -20px;
+  padding: 20px;
+  font-family: 'Alegreya Sans', 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3.0em;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.slider-arrow:hover {
+  background: #292828;
+  color: #aaa;
+}
+.slider-arrow--right { bottom: 50%; right: 30px; }
+.slider-arrow--left { bottom: 50%; left: 30px; }
+
+
+.slider-nav {
+  position: absolute;
+  bottom: 0px;
+}
+
+.slider-nav__item {
+  width: 12px;
+  height: 12px;
+  float: left;
+  clear: none;
+  display: block;
+  margin: 0 5px;
+  background: #fff;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.slider-nav__item:hover { background: #bababa; }
+.slider-nav__item--current, .slider-nav__item--current:hover { background: #999; }
+
+
+
+/** responsive styles **/
+@media screen and (max-width: 1050px) {
+  #w { padding: 0 15px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+} 
+
+@media screen and (max-width: 650px) {
+  h1 { font-size: 2.9em; }
+}
+
+@media screen and (max-width: 450px) {
+  h1 { font-size: 2.1em; }
+}
+
+/* Меню */
+

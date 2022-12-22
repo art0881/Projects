@@ -1,0 +1,315 @@
+/* Home */
+
+body{
+margin: 0;
+    background: #fff;
+    
+    
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 75px;
+ 
+    
+}
+
+main{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    
+}
+.textbok{
+    text-align: center;
+    margin-top: 0px;
+    color: #000;
+}
+.sec1{
+        display: flex;
+    padding: 35px;
+}
+.sec1 .block2 img{
+    width: 350px;
+}
+.log{
+    font-size: 40px;
+    position: absolute;
+    width: 100px;
+    left: 50px;
+}
+.sec1 .block2{
+    padding: 40px;
+}
+    .sec1 .block1{
+        background: #0E0D1E1A;
+    width: 400px;
+    padding: 50px;
+}
+.block1 h1{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Playfair Display Regular;
+}
+.block1 p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(14, 13, 30, 0.5);
+}
+.sec2{
+    width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.sec2 h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: Playfair Display Regular;
+    font-weight: 100;
+        padding-bottom: 20px;
+}
+.sec2 div{
+    display: flex;
+}
+.sec2 img{
+    width: 290px;
+    cursor: pointer;
+}
+.sec2p {
+    text-align: center;
+    font-size: 23px;
+    text-align: left;
+    margin-top: 47px;
+}
+header .block{
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+        height: 50px;
+}
+footer .block{
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+        height: 50px;
+}
+.button{
+    border-radius: 20px;
+    padding: 10px 17px 10px 17px;
+    font-size: 12px;
+    font-family: Manrope;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.block_a a{
+    margin-right: 40px;
+    cursor: pointer;
+      text-decoration: none;
+  color: #82848A;
+}
+
+.null2{
+    color:#fff;
+}
+    .block_a{
+position: absolute;
+    right: 0;
+            font-family: Playfair Display Regular;
+    font-size: 23px;
+    color:#82848A;
+    padding: 10px;
+}
+.f_s{
+    width: 100%;
+    height: 75px;
+    background: #000;
+}
+.f_log{
+    font-size: 40px;
+    position: absolute;
+    width: 100px;
+    color: #fff;
+    left: 50px;
+}
+.f_block_a{
+        position: absolute;
+    right: 0;
+    font-family: Playfair Display Regular;
+    font-size: 23px;
+    color: #82848A;
+    padding: 10px;
+}
+footer{
+       position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 75px;
+}
+
+/* About */
+
+.sec1 .block3 img {
+        height: 470px;
+    width: 460px;
+        margin-top: 20px;
+}
+.block3{
+    margin-right: 30px;
+}
+.artitle{
+    padding: 35px;
+}
+.title1{
+    font-size: 40px;
+}
+.title2{
+    font-size: 40px;
+}
+.artitle p{
+  font-size: 31px;  
+}
+.img_kid{
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+.block4{
+   
+    width: 400px;
+    padding-top: -17px;
+    min-height: 440px;
+    padding-left: 40px;
+}
+/*
+.block4 h1{
+    font-size: 28px;
+    
+}*/
+.block4 p{
+    font-size: 24px;
+    
+}
+.sec3{
+        display: flex;
+   
+}
+.block5 {
+    width: 510px;
+    padding-top: -17px;
+    min-height: 440px;
+ 
+}
+.artitle1 p{
+    font-size: 29px;
+}
+.artitle1{
+    padding: 35px;
+}
+.img_ded{
+    width: 930px;
+    display: block;
+    height: 450px;
+    margin: auto;
+}
+
+.block6{
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-top: 34px;
+}
+.block6 img{
+   width: 350px; 
+}
+
+/* books */
+
+.book_block{
+      position: relative;
+    width: 700px;
+    margin: auto;
+    min-height: 400px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+/* prince */
+.block_prince{
+       display: flex;
+    width: 800px;
+    margin: auto;
+    min-height: 400px;
+    margin-top: 50px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.prt{
+    margin-top: -15px;
+    font-size: 25px;
+}
+.prt1{
+    color: gray;
+}
+.prince1{
+        position: relative;
+    width: 400px;
+    margin-left: 70px;
+    font-size: 19px;
+    margin-top: 25px;
+    font-family: system-ui;
+}
+a{  text-decoration: none;}
+.prb1{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #34873E;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.prb2{
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+}
+.hp{
+    font-family: auto;
+    font-size: 30px;
+
+}
+.book_prince{
+     width: 290px;
+    height: 370px;
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+.prh5{
+    font-size: 28px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.prtb{
+        color: grey;
+    font-size: 28px;
+    padding-bottom: 200px;
+}
+.cont_textpr{
+     position: relative;
+    width: 700px;
+    margin-left: 8px;
+    margin: auto;
+    margin-top: -40px;
+    padding-left: 50px;
+}
